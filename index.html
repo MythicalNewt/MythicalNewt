@@ -3,83 +3,129 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#fbfbfd">
-  <meta name="description" content="Shreyas Cheruku — engineering student focused on embedded systems, firmware, hardware design, and space technology.">
+  <meta name="theme-color" content="#111114">
+  <meta name="description" content="Shreyas Cheruku — ECE student focused on embedded systems, firmware, hardware design, and space technology.">
   <title>Shreyas Cheruku | Engineering Portfolio</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="topbar">
     <nav class="nav wrap" aria-label="Main navigation">
-      <a class="brand" href="#home" aria-label="Shreyas Cheruku home"><span>Shreyas Cheruku</span></a>
+      <a class="brand" href="#home">Shreyas Cheruku <span class="brand-dot">.</span></a>
       <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
       <div class="nav-links" id="nav-links">
-        <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#education">Education</a><a class="nav-cta" href="#contact">Let's connect ↗</a>
+        <a href="#projects">Work</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#about">About</a><a href="#contact">Contact</a>
       </div>
     </nav>
   </header>
   <main>
     <section class="hero wrap" id="home">
       <div class="hero-content">
-        <div class="availability"><span class="dot"></span> Exploring Summer 2027 internships</div>
-        <p class="eyebrow">ECE · Embedded systems · Hardware</p>
-        <h1>Building at the<br><span class="gradient">edge of</span><br>hardware &amp; code.</h1>
-        <p class="hero-copy">Hi, I'm <strong>Shreyas</strong> — an engineering student interested in embedded systems, firmware, and hardware design. I like bringing ideas off the screen and into working systems, especially where electronics meets space technology.</p>
-        <div class="hero-actions"><a class="btn btn-primary" href="#projects">Explore my work <span>↘</span></a><a class="btn btn-secondary" href="https://www.linkedin.com/in/shreyas-cheruku/" target="_blank" rel="noreferrer">Connect on LinkedIn ↗</a></div>
-        <div class="hero-meta"><span>⌁ Ames, Iowa</span><span>◈ BITS Pilani × Iowa State</span></div>
-      </div>
-      <div class="hero-art"><div class="avatar-frame"><img src="https://avatars.githubusercontent.com/u/89124240?v=4" alt="GitHub profile picture" fetchpriority="high"></div></div>
-    </section>
-    <div class="quick-strip"><div class="quick-inner wrap">
-      <div class="quick-item"><strong>Embedded systems</strong><span>Firmware &amp; peripherals</span></div>
-      <div class="quick-item"><strong>Hardware design</strong><span>Circuits &amp; custom PCBs</span></div>
-      <div class="quick-item"><strong>Rocketry</strong><span>Avionics &amp; simulation</span></div>
-      <div class="quick-item"><strong>Hands-on mindset</strong><span>Prototype, test, iterate</span></div>
-    </div></div>
-    <section class="section wrap" id="about">
-      <div class="section-head reveal"><div><span class="eyebrow">01 / About</span><h2>A little context.</h2></div><p>Curious by default. Most at home where software and physical systems meet.</p></div>
-      <div class="about-grid reveal">
-        <aside class="about-aside"><div class="big-mark">⌬</div><h3>Engineer in progress.</h3><p>Learning by designing, assembling, testing, and debugging real hardware — with a particular interest in systems built for flight and exploration.</p></aside>
-        <div class="about-copy"><h3>I care about how the whole system comes together.</h3><p>I'm studying electrical and electronics engineering through the BITS Pilani–Iowa State University 2+2 pathway. My work so far has taken me from circuit design and PCB assembly to microcontroller firmware, sensor integration, and data logging.</p><p>Outside coursework, I spend time on rocketry and astrophotography. They both reward patience, careful measurement, and a willingness to troubleshoot until the result makes sense.</p>
-          <div class="about-facts"><div class="fact"><b>What I enjoy</b><span>Embedded firmware &amp; hardware</span></div><div class="fact"><b>What I'm exploring</b><span>Avionics &amp; space systems</span></div><div class="fact"><b>My approach</b><span>Build, measure, iterate</span></div><div class="fact"><b>Current base</b><span>Ames, Iowa</span></div></div>
+        <p class="eyebrow">Electrical &amp; Electronics Engineering</p>
+        <h1>Shreyas Cheruku</h1>
+        <p class="hero-copy">Student at Iowa State University and BITS Pilani through their 2+2 program, focused on embedded systems, firmware, and hardware design. I enjoy building systems where electronics and code meet, especially for rocketry and space technology.</p>
+        <p class="availability">Seeking a Summer 2027 internship</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">View projects <span aria-hidden="true">↗</span></a>
+          <a class="btn btn-secondary" href="https://www.linkedin.com/in/shreyas-cheruku/" target="_blank" rel="noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="hero-facts">
+          <div><span>Location</span><strong>Ames, Iowa</strong></div>
+          <div><span>Education</span><strong>BITS Pilani × Iowa State</strong></div>
+          <div><span>Focus areas</span><strong>Embedded · Avionics · Hardware</strong></div>
         </div>
       </div>
     </section>
-    <section class="section wrap" id="skills">
-      <div class="section-head reveal"><div><span class="eyebrow">02 / Skills</span><h2>Tools I work with.</h2></div><p>A practical snapshot of the languages, interfaces, and design tools I've used in coursework and projects.</p></div>
-      <div class="skills-grid">
-        <article class="skill-card reveal"><div class="skill-icon">⌘</div><h3>Programming</h3><p>C · C++ · Assembly<br>Python · Java</p></article>
-        <article class="skill-card reveal"><div class="skill-icon">⌁</div><h3>Embedded systems</h3><p>Raspberry Pi Pico 2 · Arduino<br>PlatformIO · SPI · I²C · LoRa<br>RTOS exposure</p></article>
-        <article class="skill-card reveal"><div class="skill-icon">⌬</div><h3>Electronics &amp; PCB</h3><p>Circuit design · KiCad<br>Soldering · Sensor integration<br>Hardware debugging</p></article>
-        <article class="skill-card reveal"><div class="skill-icon">◈</div><h3>Engineering tools</h3><p>Cadence Virtuoso · LTspice<br>Fusion 360 · OpenRocket<br>OpenMotor · Linux</p></article>
-      </div>
-    </section>
+
     <section class="section wrap" id="projects">
-      <div class="section-head reveal"><div><span class="eyebrow">03 / Selected work</span><h2>Projects, built hands-on.</h2></div><p>A few projects that show how I approach electronics, firmware, and engineering problems. More detailed media can be added as it is ready.</p></div>
-      <div class="project-grid">
-        <article class="project-card reveal">
-          <div class="project-body"><div class="project-top"><span class="project-type">Rocket avionics</span><span class="project-year">01</span></div><h3>VADA Avionics</h3><p>A custom rocket flight-computer effort spanning PCB design, embedded firmware, sensor integration, telemetry, and onboard data logging.</p><div class="tags"><span class="tag">RPi Pico 2</span><span class="tag">KiCad</span><span class="tag">PlatformIO</span><span class="tag">I²C / SPI</span><span class="tag">LoRa</span></div><div class="contribution"><b>My focus</b> — architecture, custom PCB, firmware, integration, and debugging.</div></div>
+      <div class="section-heading">
+        <div><p class="eyebrow">Portfolio</p><h2>Projects &amp; engineering work</h2></div>
+        <p>Selected work across embedded systems, rocket avionics, and hardware prototyping.</p>
+      </div>
+      <div class="project-list">
+        <article class="project">
+          <div class="project-meta"><span>Embedded systems</span><span>01</span></div>
+          <div class="project-main">
+            <h3>VADA Avionics</h3>
+            <p>Developing a custom rocket flight computer, from system architecture and PCB design to firmware, sensor integration, telemetry, and onboard data logging.</p>
+            <div class="tags"><span>Raspberry Pi Pico 2</span><span>KiCad</span><span>PlatformIO</span><span>I²C / SPI</span><span>LoRa</span></div>
+            <p class="contribution"><strong>My work:</strong> Architecture, custom PCB design and assembly, firmware, sensor integration, and debugging.</p>
+          </div>
         </article>
-        <article class="project-card reveal">
-          <div class="project-body"><div class="project-top"><span class="project-type">High-powered rocketry</span><span class="project-year">02</span></div><h3>Project Skywalker</h3><p>A high-powered rocket project combining flight-system electronics with simulation and mechanical design workflows.</p><div class="tags"><span class="tag">Raspberry Pi Zero 2 W</span><span class="tag">Arduino Nano ESP32</span><span class="tag">OpenRocket</span><span class="tag">OpenMotor</span><span class="tag">CAD</span></div><div class="contribution"><b>Design estimates</b> — approximately 2,800 m altitude and 26 G acceleration; estimates, not claimed flight results.</div></div>
+        <article class="project">
+          <div class="project-meta"><span>High-powered rocketry</span><span>02</span></div>
+          <div class="project-main">
+            <h3>Project Skywalker</h3>
+            <p>A high-powered rocket project combining flight-system electronics, mechanical design, and flight simulation.</p>
+            <div class="tags"><span>Raspberry Pi Zero 2 W</span><span>Arduino Nano ESP32</span><span>OpenRocket</span><span>OpenMotor</span><span>CAD</span></div>
+            <p class="contribution"><strong>Design estimates:</strong> Approximately 2,800 m altitude and 26 G acceleration; these are simulation estimates, not verified flight results.</p>
+          </div>
         </article>
-        <article class="project-card reveal">
-          <div class="project-body"><div class="project-top"><span class="project-type">Hardware hackathon</span><span class="project-year">03</span></div><h3>Mars Communication Mesh</h3><p>A team project exploring a communication mesh concept for Mars, built for Hardware Hackathon 2.0.</p><div class="tags"><span class="tag">Discrete H-bridge</span><span class="tag">Custom PCB</span><span class="tag">Magnetorquer</span><span class="tag">MicroPython</span></div><div class="contribution"><b>My contribution</b> — designed and built the discrete H-bridge driver and wrote a MicroPython demonstration. Team placed second.</div></div>
+        <article class="project">
+          <div class="project-meta"><span>Hardware hackathon</span><span>03</span></div>
+          <div class="project-main">
+            <h3>Mars Communication Mesh</h3>
+            <p>A team project exploring a communication-mesh concept for Mars, developed for Hardware Hackathon 2.0. The team placed second.</p>
+            <div class="tags"><span>Discrete H-bridge</span><span>Custom PCB</span><span>Magnetorquer</span><span>MicroPython</span></div>
+            <p class="contribution"><strong>My work:</strong> Designed and built the discrete H-bridge driver for a custom magnetorquer PCB and wrote a MicroPython demonstration.</p>
+          </div>
         </article>
       </div>
     </section>
-    <section class="section wrap" id="education">
-      <div class="section-head reveal"><div><span class="eyebrow">04 / Education</span><h2>Where I'm learning.</h2></div><p>An engineering path across two institutions, with a focus on electronics and systems.</p></div>
-      <div class="education-panel">
-        <article class="edu-card reveal"><div class="edu-symbol">ISU</div><div><h3>Iowa State University</h3><p>Current junior transfer student</p><p class="edu-meta">AMES, IOWA · ENGINEERING</p></div></article>
-        <article class="edu-card reveal"><div class="edu-symbol">BITS</div><div><h3>BITS Pilani</h3><p>Electronics and Communications Engineering coursework through the 2+2 pathway</p><p class="edu-meta">BITS PILANI × IOWA STATE</p></div></article>
+
+    <section class="section wrap" id="experience">
+      <div class="section-heading">
+        <div><p class="eyebrow">Hands-on experience</p><h2>From design to debugging</h2></div>
+        <p>I like working across the full engineering loop: planning, building, testing, and improving.</p>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item"><span class="timeline-index">01</span><div><h3>Flight-computer development</h3><p class="timeline-sub">VADA Avionics · Embedded hardware and firmware</p><p>Worked across the flight-computer architecture, PCB, sensor interfaces, firmware, and logging pipeline, with attention to reliable integration between subsystems.</p></div></article>
+        <article class="timeline-item"><span class="timeline-index">02</span><div><h3>Rocket design and simulation</h3><p class="timeline-sub">Project Skywalker · Avionics and simulation</p><p>Combined electronics planning with CAD and OpenRocket/OpenMotor simulations to reason about a high-powered rocket design.</p></div></article>
+        <article class="timeline-item"><span class="timeline-index">03</span><div><h3>Hardware prototyping</h3><p class="timeline-sub">Mars Communication Mesh · Team project</p><p>Built and demonstrated a discrete H-bridge driver for a magnetorquer, contributing to a second-place hackathon project.</p></div></article>
       </div>
     </section>
-    <section class="section wrap" id="contact">
-      <div class="contact-panel reveal"><span class="eyebrow">05 / Contact</span><h2>Have a project in mind?<br><span class="gradient">Let's talk engineering.</span></h2><p>I'm interested in connecting with people working on embedded systems, firmware, hardware, and space technology — and exploring Summer 2027 internship opportunities.</p><div class="contact-actions"><a class="btn btn-primary" href="https://www.linkedin.com/in/shreyas-cheruku/" target="_blank" rel="noreferrer">Find me on LinkedIn ↗</a><a class="btn btn-secondary" href="https://github.com/MythicalNewt" target="_blank" rel="noreferrer">View GitHub ↗</a></div></div>
+
+    <section class="section wrap" id="skills">
+      <div class="section-heading">
+        <div><p class="eyebrow">Technical toolkit</p><h2>Skills</h2></div>
+        <p>Tools and technologies used in coursework and hands-on projects.</p>
+      </div>
+      <div class="skills-grid">
+        <article class="skill-group"><h3>Programming</h3><p>C, C++, Assembly, Python, Java</p></article>
+        <article class="skill-group"><h3>Embedded systems</h3><p>Raspberry Pi Pico 2, Arduino, PlatformIO, SPI, I²C, LoRa, RTOS exposure</p></article>
+        <article class="skill-group"><h3>Electronics &amp; hardware</h3><p>Circuit design, KiCad, PCB assembly, soldering, sensor integration, hardware debugging</p></article>
+        <article class="skill-group"><h3>Engineering software</h3><p>Cadence Virtuoso, LTspice, Fusion 360, OpenRocket, OpenMotor, Linux</p></article>
+      </div>
+    </section>
+
+    <section class="section wrap" id="about">
+      <div class="section-heading">
+        <div><p class="eyebrow">About</p><h2>Education &amp; interests</h2></div>
+        <p>Learning engineering by connecting theory with things that have to work in the real world.</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-copy">
+          <p>I'm studying electrical and electronics engineering through the BITS Pilani–Iowa State University 2+2 pathway. My interests sit where embedded firmware, electronics, and physical systems overlap.</p>
+          <p>Outside coursework, I spend time on rocketry and astrophotography. Both have taught me to be patient with data, careful with measurements, and methodical when debugging.</p>
+        </div>
+        <div class="education-list">
+          <article class="education-item"><span class="school-mark">ISU</span><div><h3>Iowa State University</h3><p>Electrical and Electronics Engineering</p><span>Ames, Iowa</span></div></article>
+          <article class="education-item"><span class="school-mark">BITS</span><div><h3>BITS Pilani</h3><p>Electronics and Communication Engineering</p><span>Pilani, India · 2+2 dual-degree pathway</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap contact-section" id="contact">
+      <p class="eyebrow">Get in touch</p>
+      <h2>Interested in building something useful?</h2>
+      <p class="contact-copy">I'm happy to connect about embedded systems, firmware, hardware design, rocketry, and Summer 2027 internship opportunities.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="https://www.linkedin.com/in/shreyas-cheruku/" target="_blank" rel="noreferrer">Connect on LinkedIn <span aria-hidden="true">↗</span></a>
+        <a class="btn btn-secondary" href="https://github.com/MythicalNewt" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+      </div>
     </section>
   </main>
-  <footer class="footer"><div class="footer-inner wrap"><span>© <span id="year"></span> Shreyas Cheruku · Designed with curiosity.</span><div class="footer-links"><a href="https://github.com/MythicalNewt" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/shreyas-cheruku/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="#home">Back to top ↑</a></div></div></footer>
+  <footer class="footer"><div class="wrap footer-inner"><span>© <span id="year"></span> Shreyas Cheruku</span><div><a href="https://github.com/MythicalNewt" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/shreyas-cheruku/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="#home">Back to top ↑</a></div></div></footer>
   <script src="script.js" defer></script>
 </body>
 </html>
