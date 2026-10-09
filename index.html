@@ -6,7 +6,7 @@
   <meta name="theme-color" content="#111114">
   <meta name="description" content="Shreyas Cheruku — ECE student focused on embedded systems, firmware, hardware design, and space technology.">
   <title>Shreyas Cheruku | Engineering Portfolio</title>
-  <link rel="stylesheet" href="styles.css?v=3">
+  <link rel="stylesheet" href="styles.css?v=4">
 </head>
 <body>
   <header class="topbar">
@@ -31,8 +31,8 @@
         </div>
         <div class="hero-facts">
           <div><span>Location</span><strong>Ames, Iowa</strong></div>
-          <div><span>Education</span><strong>BITS Pilani × Iowa State</strong></div>
-          <div><span>Focus areas</span><strong>Embedded · Avionics · Hardware</strong></div>
+          <div><span>Education</span><strong>Iowa State University</strong></div>
+          <div><span>Focus areas</span><strong>Embedded · Firmware · Avionics · Hardware</strong></div>
         </div>
       </div>
     </section>
@@ -50,6 +50,7 @@
             <p>Developing a custom rocket flight computer, from system architecture and PCB design to firmware, sensor integration, telemetry, and onboard data logging.</p>
             <div class="tags"><span>Raspberry Pi Pico 2</span><span>KiCad</span><span>PlatformIO</span><span>I²C / SPI</span><span>LoRa</span></div>
             <p class="contribution"><strong>My work:</strong> Architecture, custom PCB design and assembly, firmware, sensor integration, and debugging.</p>
+            <button class="project-detail-link" type="button" data-project="vada">Read project details ↗</button>
           </div>
         </article>
         <article class="project">
@@ -59,6 +60,7 @@
             <p>A high-powered rocket project combining flight-system electronics, mechanical design, and flight simulation.</p>
             <div class="tags"><span>Raspberry Pi Zero 2 W</span><span>Arduino Nano ESP32</span><span>OpenRocket</span><span>OpenMotor</span><span>CAD</span></div>
             <p class="contribution"><strong>Design estimates:</strong> Approximately 2,800 m altitude and 26 G acceleration; these are simulation estimates, not verified flight results.</p>
+            <button class="project-detail-link" type="button" data-project="skywalker">Read project details ↗</button>
           </div>
         </article>
         <article class="project">
@@ -68,6 +70,7 @@
             <p>A team project exploring a communication-mesh concept for Mars, developed for Hardware Hackathon 2.0. The team placed second.</p>
             <div class="tags"><span>Discrete H-bridge</span><span>Custom PCB</span><span>Magnetorquer</span><span>MicroPython</span></div>
             <p class="contribution"><strong>My work:</strong> Designed and built the discrete H-bridge driver for a custom magnetorquer PCB and wrote a MicroPython demonstration.</p>
+            <button class="project-detail-link" type="button" data-project="mars-mesh">Read project details ↗</button>
           </div>
         </article>
       </div>
@@ -117,8 +120,8 @@
 
     <section class="section wrap contact-section" id="contact">
       <p class="eyebrow">Get in touch</p>
-      <h2>Interested in building something useful?</h2>
-      <p class="contact-copy">I'm happy to connect about embedded systems, firmware, hardware design, rocketry, and Summer 2027 internship opportunities.</p>
+      <h2>Looking for an embedded systems or hardware intern?</h2>
+      <p class="contact-copy">I’m seeking Summer 2027 internship opportunities in embedded systems, firmware, and hardware engineering. If my project experience looks like a fit for your team, I’d love to connect.</p>
       <div class="hero-actions">
         <a class="btn btn-primary" href="https://www.linkedin.com/in/shreyas-cheruku/" target="_blank" rel="noreferrer">Connect on LinkedIn <span aria-hidden="true">↗</span></a>
         <a class="btn btn-secondary" href="https://github.com/MythicalNewt" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
@@ -126,6 +129,21 @@
     </section>
   </main>
   <footer class="footer"><div class="wrap footer-inner"><span>© <span id="year"></span> Shreyas Cheruku</span><div><a href="https://github.com/MythicalNewt" target="_blank" rel="noreferrer">GitHub ↗</a><a href="https://www.linkedin.com/in/shreyas-cheruku/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a href="#home">Back to top ↑</a></div></div></footer>
-  <script src="script.js" defer></script>
+
+  <div class="project-modal" id="project-modal" hidden>
+    <div class="modal-backdrop" data-close-modal></div>
+    <section class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modal-title" tabindex="-1">
+      <div class="modal-topline"><span id="modal-number">PROJECT / 01</span><button class="modal-close" type="button" aria-label="Close project details" data-close-modal>×</button></div>
+      <p class="modal-category" id="modal-category"></p><h2 id="modal-title"></h2><p class="modal-subtitle" id="modal-subtitle"></p>
+      <div class="modal-tabs" role="tablist" aria-label="Project detail sections">
+        <button type="button" role="tab" data-tab="overview" aria-selected="true">Overview</button>
+        <button type="button" role="tab" data-tab="approach" aria-selected="false">Approach</button>
+        <button type="button" role="tab" data-tab="tools" aria-selected="false">Tools &amp; concepts</button>
+      </div>
+      <div class="modal-content" id="modal-content" role="tabpanel" tabindex="0"></div>
+      <div class="modal-bottom"><button class="copy-project-link" type="button">Copy project link <span aria-hidden="true">▢</span></button><div class="modal-pagination"><button type="button" id="prev-project">← Previous</button><button type="button" id="next-project">Next project →</button></div></div>
+    </section>
+  </div>
+  <script src="script.js?v=2" defer></script>
 </body>
 </html>
