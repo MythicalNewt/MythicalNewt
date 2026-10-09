@@ -3,18 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#0b0a14">
+  <meta name="theme-color" content="#fbfbfd">
   <meta name="description" content="Shreyas Cheruku — engineering student focused on embedded systems, firmware, hardware design, and space technology.">
   <title>Shreyas Cheruku | Engineering Portfolio</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="topbar">
     <nav class="nav wrap" aria-label="Main navigation">
-      <a class="brand" href="#home" aria-label="Shreyas Cheruku home"><span class="brand-mark">SC.</span><span>Shreyas Cheruku</span></a>
+      <a class="brand" href="#home" aria-label="Shreyas Cheruku home"><span>Shreyas Cheruku</span></a>
       <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
       <div class="nav-links" id="nav-links">
         <a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#education">Education</a><a class="nav-cta" href="#contact">Let's connect ↗</a>
@@ -25,19 +22,13 @@
     <section class="hero wrap" id="home">
       <div class="hero-content">
         <div class="availability"><span class="dot"></span> Exploring Summer 2027 internships</div>
-        <p class="eyebrow" style="margin:27px 0 0">ECE · Embedded systems · Hardware</p>
+        <p class="eyebrow">ECE · Embedded systems · Hardware</p>
         <h1>Building at the<br><span class="gradient">edge of</span><br>hardware &amp; code.</h1>
         <p class="hero-copy">Hi, I'm <strong>Shreyas</strong> — an engineering student interested in embedded systems, firmware, and hardware design. I like bringing ideas off the screen and into working systems, especially where electronics meets space technology.</p>
         <div class="hero-actions"><a class="btn btn-primary" href="#projects">Explore my work <span>↘</span></a><a class="btn btn-secondary" href="https://www.linkedin.com/in/shreyas-cheruku/" target="_blank" rel="noreferrer">Connect on LinkedIn ↗</a></div>
         <div class="hero-meta"><span>⌁ Ames, Iowa</span><span>◈ BITS Pilani × Iowa State</span></div>
       </div>
-      <div class="hero-art" aria-label="GitHub profile image surrounded by a technical orbital motif">
-        <div class="orbit"><div class="orbit-ring"></div></div>
-        <div class="avatar-frame"><img src="https://avatars.githubusercontent.com/u/89124240?v=4" alt="GitHub profile picture" fetchpriority="high"></div>
-        <div class="float-card card-one"><span class="float-icon">⌘</span><span><strong>Firmware + PCB</strong><small>From schematic to system</small></span></div>
-        <div class="float-card card-two"><span class="float-icon">↗</span><span><strong>Space technology</strong><small>Curiosity, built into hardware</small></span></div>
-        <span class="art-label">DESIGN · BUILD · DEBUG</span>
-      </div>
+      <div class="hero-art"><div class="avatar-frame"><img src="https://avatars.githubusercontent.com/u/89124240?v=4" alt="GitHub profile picture" fetchpriority="high"></div></div>
     </section>
     <div class="quick-strip"><div class="quick-inner wrap">
       <div class="quick-item"><strong>Embedded systems</strong><span>Firmware &amp; peripherals</span></div>
@@ -67,20 +58,13 @@
       <div class="section-head reveal"><div><span class="eyebrow">03 / Selected work</span><h2>Projects, built hands-on.</h2></div><p>A few projects that show how I approach electronics, firmware, and engineering problems. More detailed media can be added as it is ready.</p></div>
       <div class="project-grid">
         <article class="project-card reveal">
-          <div class="project-visual"><div class="visual-grid"></div><div class="chip">PICO 2<br>FLIGHT COMPUTER</div><span class="trace"></span><span class="trace t2"></span><span class="trace t3"></span><span class="trace t4"></span></div>
           <div class="project-body"><div class="project-top"><span class="project-type">Rocket avionics</span><span class="project-year">01</span></div><h3>VADA Avionics</h3><p>A custom rocket flight-computer effort spanning PCB design, embedded firmware, sensor integration, telemetry, and onboard data logging.</p><div class="tags"><span class="tag">RPi Pico 2</span><span class="tag">KiCad</span><span class="tag">PlatformIO</span><span class="tag">I²C / SPI</span><span class="tag">LoRa</span></div><div class="contribution"><b>My focus</b> — architecture, custom PCB, firmware, integration, and debugging.</div></div>
         </article>
         <article class="project-card reveal">
-          <div class="project-visual blue"><div class="visual-grid"></div><div class="rocket-shape"></div><span class="trace"></span><span class="trace t2"></span><span class="trace t3"></span><span class="trace t4"></span></div>
           <div class="project-body"><div class="project-top"><span class="project-type">High-powered rocketry</span><span class="project-year">02</span></div><h3>Project Skywalker</h3><p>A high-powered rocket project combining flight-system electronics with simulation and mechanical design workflows.</p><div class="tags"><span class="tag">Raspberry Pi Zero 2 W</span><span class="tag">Arduino Nano ESP32</span><span class="tag">OpenRocket</span><span class="tag">OpenMotor</span><span class="tag">CAD</span></div><div class="contribution"><b>Design estimates</b> — approximately 2,800 m altitude and 26 G acceleration; estimates, not claimed flight results.</div></div>
         </article>
         <article class="project-card reveal">
-          <div class="project-visual mint"><div class="visual-grid"></div><div class="hbridge"><span>H-BRIDGE</span><span>DRIVE</span><span>MAGNETORQUER</span><span>DEMO</span></div></div>
           <div class="project-body"><div class="project-top"><span class="project-type">Hardware hackathon</span><span class="project-year">03</span></div><h3>Mars Communication Mesh</h3><p>A team project exploring a communication mesh concept for Mars, built for Hardware Hackathon 2.0.</p><div class="tags"><span class="tag">Discrete H-bridge</span><span class="tag">Custom PCB</span><span class="tag">Magnetorquer</span><span class="tag">MicroPython</span></div><div class="contribution"><b>My contribution</b> — designed and built the discrete H-bridge driver and wrote a MicroPython demonstration. Team placed second.</div></div>
-        </article>
-        <article class="project-card reveal">
-          <div class="project-visual blue"><div class="visual-grid"></div><div class="chip" style="width:105px;height:105px;border-radius:50%">SENSOR<br>→ DATA<br>→ INSIGHT</div><span class="trace"></span><span class="trace t2"></span><span class="trace t3"></span><span class="trace t4"></span></div>
-          <div class="project-body"><div class="project-top"><span class="project-type">More in progress</span><span class="project-year">04</span></div><h3>More engineering notes soon.</h3><p>This space is reserved for build logs, schematics, test results, and project media as they are prepared for publication.</p><div class="tags"><span class="tag">Build logs</span><span class="tag">Schematics</span><span class="tag">Test notes</span></div><div class="contribution"><b>Next up</b> — add verified project documentation and the Skywalker video.</div></div>
         </article>
       </div>
     </section>
