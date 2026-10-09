@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#111114">
+  <meta name="description" content="Resume of Shreyas Cheruku, electrical and electronics engineering student seeking Summer 2027 internships.">
+  <title>Resume | Shreyas Cheruku</title>
+  <link rel="stylesheet" href="styles.css?v=5">
+  <style>
+    .resume-page { padding-top: 58px; padding-bottom: 80px; }
+    .resume-head { display:flex; align-items:flex-start; justify-content:space-between; gap:24px; margin-bottom:28px; }
+    .resume-head h1 { margin:8px 0 10px; font-size:clamp(2rem,5vw,3rem); letter-spacing:-.05em; }
+    .resume-head p { color:var(--muted); margin:0; }
+    .resume-actions { display:flex; gap:10px; flex-wrap:wrap; }
+    .resume-sheet { background:#f8f8fa; color:#202027; border-radius:8px; padding:clamp(22px,5vw,54px); max-width:900px; margin:0 auto; box-shadow:0 12px 40px rgba(0,0,0,.18); }
+    .resume-sheet h2 { font-size:1rem; text-transform:uppercase; letter-spacing:.06em; margin:24px 0 10px; padding-bottom:6px; border-bottom:1px solid #d8d8df; color:#24242c; }
+    .resume-sheet h3 { font-size:.96rem; margin:0; color:#202027; }
+    .resume-sheet p,.resume-sheet li { font-size:.88rem; line-height:1.55; color:#373742; }
+    .resume-name { text-align:center; font-size:1.8rem!important; letter-spacing:.02em!important; margin:0 0 5px!important; }
+    .resume-contact { text-align:center; overflow-wrap:anywhere; }
+    .resume-entry { margin-bottom:15px; }
+    .resume-entry-head { display:flex; justify-content:space-between; gap:14px; align-items:baseline; }
+    .resume-date { white-space:nowrap; font-size:.82rem!important; }
+    .resume-sub { margin:3px 0!important; font-style:italic; }
+    .resume-sheet ul { padding-left:20px; margin:7px 0 0; }
+    .resume-skills p { margin:5px 0; }
+    .resume-back { color:var(--muted); font-size:.9rem; }
+    @media(max-width:600px) { .resume-head { flex-direction:column; } .resume-entry-head { align-items:flex-start; flex-direction:column; gap:0; } .resume-date { white-space:normal; } }
+    @media print {
+      body { background:white!important; color:#202027!important; }
+      .topbar,.resume-head,.footer { display:none!important; }
+      .resume-page { padding:0!important; }
+      .resume-sheet { max-width:none; box-shadow:none; border-radius:0; padding:0; }
+      .resume-sheet h2 { break-after:avoid; }
+      .resume-entry { break-inside:avoid; }
+      @page { size:letter; margin:.55in; }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <nav class="nav wrap" aria-label="Main navigation">
+      <a class="brand" href="index.html">Shreyas Cheruku <span class="brand-dot">.</span></a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+      <div class="nav-links" id="nav-links">
+        <a href="index.html#projects">Work</a><a href="resume.html" aria-current="page">Resume</a><a href="index.html#about">About</a><a href="index.html#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+  <main class="resume-page wrap">
+    <div class="resume-head">
+      <div><a class="resume-back" href="index.html">← Back to portfolio</a><p class="eyebrow" style="margin-top:22px">Resume</p><h1>Shreyas Cheruku</h1><p>Electrical and Electronics Engineering · Summer 2027 internships</p></div>
+      <div class="resume-actions"><button class="btn btn-primary" type="button" onclick="window.print()">Print / Save as PDF ↗</button><a class="btn btn-secondary" href="https://www.linkedin.com/in/shreyas-cheruku/" target="_blank" rel="noreferrer">LinkedIn ↗</a></div>
+    </div>
+    <article class="resume-sheet">
+      <h1 class="resume-name">SHREYAS CHERUKU</h1>
+      <p class="resume-contact">scheruku@iastate.edu · 515-694-1329 · <a href="https://www.linkedin.com/in/shreyas-cheruku/">linkedin.com/in/shreyas-cheruku</a></p>
+      <h2>Objective</h2><p>Electrical engineering student seeking Summer 2027 embedded systems, firmware, or hardware engineering internships.</p>
+      <h2>Education</h2>
+      <div class="resume-entry"><div class="resume-entry-head"><h3>Iowa State University; Ames, IA</h3><p class="resume-date">Expected May 2028</p></div><p class="resume-sub">Bachelor of Science in Electrical and Electronics Engineering</p></div>
+      <div class="resume-entry"><div class="resume-entry-head"><h3>Birla Institute of Technology and Science, Pilani; Pilani, India</h3><p class="resume-date">Aug 2024 – Jul 2026</p></div><p class="resume-sub">Bachelor of Engineering in Electronics and Communications Engineering · CGPA: 7.56/10</p><p><strong>Relevant coursework:</strong> Digital Design, Microprocessors and Interfacing, Analog Electronics, Microelectronic Circuits, Electronic Devices, Signals and Systems, Control Systems</p></div>
+      <h2>Projects</h2>
+      <div class="resume-entry"><div class="resume-entry-head"><h3>VADA Avionics; Astro Club, BITS Pilani</h3><p class="resume-date">Dec 2025 – May 2026</p></div><ul><li>Designed and developed system architecture and component selection for a custom rocket avionics system built around Raspberry Pi Pico 2 microcontrollers.</li><li>Designed the KiCad schematic for a custom shield PCB, integrating interfaces for sensors, SD-card storage, and LoRa telemetry. Soldered components onto fabricated boards and worked on testing and debugging the hardware.</li><li>Developed and debugged RTOS-based firmware in PlatformIO, implementing SPI and I²C interfaces for IMUs, barometric sensors, SD-card data logging, and other avionics peripherals.</li></ul></div>
+      <div class="resume-entry"><div class="resume-entry-head"><h3>Project Skywalker; Astro Club, BITS Pilani</h3><p class="resume-date">Dec 2024 – May 2025</p></div><ul><li>Contributed to the development of a student-built high-powered rocket with estimated 2,800 m altitude and 26 G peak acceleration.</li><li>Programmed and debugged the rocket's flight computer based on Raspberry Pi Zero 2 W and Arduino Nano ESP32.</li><li>Designed the rocket motor and nozzle using OpenMotor and simulated rocket performance and flight characteristics using OpenRocket. Assisted with CAD design of the rocket's mechanical components.</li></ul></div>
+      <h2>Leadership and activities</h2><div class="resume-entry"><div class="resume-entry-head"><h3>Peer Mentorship Program, BITS Pilani; Mentor</h3><p class="resume-date">Aug 2025 – Jun 2026</p></div><ul><li>Selected as a peer mentor after an interview to guide a group of 6 incoming students.</li><li>Provided guidance on academics, campus resources, student life, and navigating the transition to university.</li></ul></div>
+      <h2>Honors and accomplishments</h2><div class="resume-entry"><div class="resume-entry-head"><h3>2nd Place – Hardware Hackathon 2.0</h3><p class="resume-date">Dec 2025</p></div><ul><li>Placed 2nd in a 72-hour hardware hackathon focused on designing systems for human travel and survival on Mars.</li><li>Collaborated on a Mars Communication Mesh System integrating surface nodes, a ground station, and a 1U CubeSat prototype.</li><li>Designed a discrete H-bridge for driving a custom PCB magnetorquer and worked on demo code using MicroPython.</li></ul></div>
+      <h2>Skills</h2><div class="resume-skills"><p><strong>Programming:</strong> C, C++, Assembly, Python, Java</p><p><strong>Embedded Systems:</strong> Raspberry Pi Pico 2, Arduino Nano ESP32, PlatformIO, RTOS, SPI, I²C, LoRa, Linux</p><p><strong>Hardware:</strong> PCB Design, Circuit Design, Soldering</p><p><strong>Engineering Software:</strong> KiCad, Cadence Virtuoso, LTspice, Autodesk Fusion 360</p></div>
+    </article>
+  </main>
+  <footer class="footer"><div class="wrap footer-inner"><span>© <span id="year"></span> Shreyas Cheruku</span><div><a href="index.html">Portfolio ↗</a><a href="index.html#contact">Contact ↗</a></div></div></footer>
+  <script>
+    document.querySelector('.menu-toggle').addEventListener('click', () => {
+      const nav = document.querySelector('.nav-links');
+      const open = nav.classList.toggle('open');
+      document.querySelector('.menu-toggle').setAttribute('aria-expanded', String(open));
+    });
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
